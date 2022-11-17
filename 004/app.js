@@ -5,7 +5,7 @@ function Somar() {
     let valor4 = document.getElementById('n4').value
 
 
-    let total = parseFloat(valor1) + parseFloat (valor2) + parseFloat(valor3) + parseFloat(valor4) /2
+    let total =    ( parseFloat(valor1) + parseFloat (valor2) + parseFloat(valor3) + parseFloat(valor4))/2
 
     document.getElementById('resposta').innerHTML = total
 }
